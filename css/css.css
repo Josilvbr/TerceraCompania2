@@ -1,18 +1,20 @@
+
+/*****ENCABEZADO***/
 .encabezado {
     background-color: red;
     padding: 0;
     margin: 0;
     box-shadow: 1px 1px 10px rgb(180, 180, 180);
+    border: 1px solid black;
+    border-radius: 10px;
 
 }
 
-.titulo-ban {}
-
 .logo-ban {
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 15px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 55px;
+    margin-right: 55px;
     margin-top: auto;
     margin-bottom: auto;
     width: 200px;
@@ -26,6 +28,7 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    text-shadow: 1px 1px 0px gray;
 
 }
 
@@ -36,12 +39,127 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    text-shadow: 1px 1px 10px gray;
 }
-
-.encabezado img {}
-
 
 
 .imagen-ban {
     height: 500;
+}
+
+/**** Menu ***/
+
+.menu  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    display: flex;
+    padding-left: 10%;
+    box-shadow: 1px 1px 10px gray;
+    width:auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.opcion {
+
+    background-color: white;
+    float: left;
+    width: 170px;
+    background-color: red;
+ 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px gray;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.opcion:hover {
+    background-color: white;
+    
+}
+
+
+/* CUERPO*/
+
+.imagen-radio {
+    border-radius: 50%;
+    height: 100%;
+}
+.cuerpo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red;  
+    box-shadow: 1px 1px 0px gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 1px 1px 10px gray;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.articulo {
+    width: 100%;
+    background-color: white;
+    display: flow-root;
+    margin-top: 20px;
+    text-align: center ;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.h2-oficialidad{
+    padding-top: 50px;
+    
+    color: grey;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+}
+
+.titulo-cargo {
+    font-size: x-large;
+}
+
+.titulo-persona {
+    font-size: larger;
+}
+.Oficialidad {
+    width: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 400px;
+   float: left;
+   padding-bottom: 15px;
+   min-width: 330px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: red;
+    width: 100%;
+    display: flow-root;
+    text-align: center ;
+    box-shadow: 1px 1px 10px gray;
+    border: 1px solid black;
+}
+
+.box {
+    padding-top: 20px;
+    width: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 200px;
+   float: left;
+   
+   min-width: 330px;
 }
